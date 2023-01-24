@@ -635,7 +635,7 @@
   align-items: center;
 }
 .section-8-input {
-  min-width: 564px;
+  min-width: 320px;
   height: 57px;
   background: rgba(255, 255, 255, 0.18);
   padding-left: 31px;
@@ -649,7 +649,7 @@
   font-size: 17px;
   line-height: 22px;
   color: #ffffff;
-  text-align: center;
+
 }
 
 .email {
@@ -849,6 +849,29 @@
   .section-8-form {
     min-width: 564px;
   }
+  .section-8-input {
+    min-width: 564px;
+    height: 57px;
+    background: rgba(255, 255, 255, 0.18);
+    padding-left: 31px;
+    margin:20px auto 0;
+  }
+  .email {
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 0;
+  }
+
+  .budget {
+    margin-top: 0;
+  }
+
+  .textarea {
+    height: 127px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 0;
+    padding-top: 17px;
+  }
+
 }
 
 @media (min-width: 768px) {
