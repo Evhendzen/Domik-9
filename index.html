@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,12 +27,27 @@
     <title>Minimal</title>
   </head>
   <body>
+
     <header class="section-1-header">
+
       <div class="container">
         <div class="d-flex">
           <a class="logo-img" href="#">
             <img alt="logo" src="./images/logo.png" />
           </a>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#">PROCESS</a></li>
+                    <li><a class="menu__item" href="#">PROJECTS</a></li>
+                    <li><a class="menu__item" href="#">TEAM</a></li>
+                    <li><a class="menu__item" href="#">CONTACT</a></li>
+
+                </ul>
+            </div>
           <nav class="nav-links">
             <a class="section-1-a" href="">process</a>
             <a class="section-1-a" href="">projects</a>
@@ -67,7 +82,9 @@
           </div>
           <a class="text-border3" href="#">Get in Touch</a>
         </div>
+
       </section>
+
       <section class="section-3">
         <div class="section-3-header">
           <div class="section-3-header-text">HOW WE MAKE BRANDS THRIVE</div>
@@ -108,7 +125,6 @@
           </div>
         </div>
       </section>
-
       <section class="section-4">
         <div class="section-4-header-text">RECENT PROJECTS</div>
         <div class="section-4-header-line">
@@ -196,7 +212,8 @@
         </div>
       </section>
 
-      <section class="section-5">
+
+    <section class="section-5">
         <div class="section-5-container">
           <div class="section-5-header">
             <h2 class="section-5-header">Our team</h2>
@@ -530,4 +547,5 @@
       </svg>
     </main>
   </body>
+
 </html>
