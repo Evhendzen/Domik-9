@@ -30,6 +30,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-size: 14px;
   line-height: 18px;
   font-family: "Montserrat", sans-serif;
